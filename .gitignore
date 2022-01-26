@@ -1,6 +1,11 @@
-###################################
-#JAVA
-###################################
+allure-results/
+screenshots/
+screenshot/
+test-output/
+build/
+##############################
+## Java
+##############################
 .mtj.tmp/
 *.class
 *.jar
@@ -9,14 +14,13 @@
 *.nar
 hs_err_pid*
 activityLog.log
-
-####################################
-#MAVEN
-###################################
+##############################
+## Maven
+##############################
 target/
 pom.xml.tag
 pom.xml.releaseBackup
-pom.xml.versionBackup
+pom.xml.versionsBackup
 pom.xml.next
 pom.xml.bak
 release.properties
@@ -24,34 +28,39 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-
-###################################
-#IntelliJ
-###################################
+##############################
+## IntelliJ
+##############################
 out/
 .idea/
 .idea_modules/
 *.iml
 *.ipr
 *.iws
-
-###################################
-#Eclipse
-###################################
+##############################
+## Eclipse
+##############################
 .settings/
 bin/
 tmp/
-*.metadata/
+.metadata
 .classpath
 .project
 *.tmp
 *.bak
 *.swp
-*`.nib
+*~.nib
 local.properties
 .loadpath
 .factorypath
-
 ## OS X
-###################################
+##############################
 .DS_Store
+
+
+
+
+
+
+
+
